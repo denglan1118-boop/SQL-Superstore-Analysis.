@@ -1,21 +1,46 @@
 # 📊 SQL + Excel + Power BI Superstore Sales Analysis
+![img_1.png](img_1.png)
+## 📌 Project Summary
 
-## 📌 Project Overview
+This is an end-to-end **data analytics portfolio project** based on a retail Superstore dataset.
 
-This project is an end-to-end data analysis case study based on a retail Superstore dataset.  
-It demonstrates the full analytics workflow from data extraction, database modeling, SQL analysis, Excel-based exploration, to interactive Power BI dashboards.
+It demonstrates a complete BI workflow:
 
-The goal is to uncover business insights related to sales performance, customer behavior, product profitability, and category trends.
+> Data extraction → SQL modeling → Excel analysis → Power BI dashboard → Business insights
+
+The goal is to analyze **sales performance, customer behavior, product profitability, and category trends** to support data-driven decision making.
 
 ---
 
-## 🧠 Business Objective
+## 🎯 Key Highlights
 
-- Analyze overall sales and profit performance
-- Identify top-performing customers and products
-- Understand category-level performance differences
-- Explore monthly sales trends
-- Provide actionable business insights for decision-making
+- 📦 Built relational data model using SQL (Customers / Orders / Products)
+- 📊 Performed data analysis using SQL aggregation and validation
+- 📈 Conducted Excel-based exploration (VLOOKUP, SUMIFS, Pivot Tables)
+- 📊 Developed interactive Power BI dashboard
+- 💡 Extracted actionable business insights
+
+---
+
+## 🧠 Business Insights (Summary)
+
+- 📈 Sales peak in Q4, indicating strong seasonal demand
+- 👥 Revenue follows Pareto principle (80% revenue from top customers)
+- 💰 High sales ≠ high profit (margin imbalance exists)
+- 📦 Office Supplies leads in revenue, but Furniture has lower profitability
+- 🧩 Product sales are highly concentrated among top SKUs
+
+---
+
+## 📊 Dashboard Overview
+
+The dashboard includes:
+
+- KPI metrics (Sales / Profit / Quantity / Orders)
+- Top 5 Customers analysis
+- Top 5 Products performance
+- Category breakdown
+- Monthly sales trend analysis
 
 ---
 
@@ -38,70 +63,6 @@ The goal is to uncover business insights related to sales performance, customer 
 
 ---
 
-## 🧱 Data Processing Workflow
-Data Source (Excel)
-↓
-SQLite Database (superstore.db)
-↓
-SQL Data Cleaning & Analysis
-↓
-Excel Analysis (VLOOKUP / SUMIFS / Pivot Table)
-↓
-Power BI Dashboard Visualization
-
-
----
-
-## 🧮 SQL Analysis
-
-SQL was used to:
-
-- Create structured tables (Customers, Products, Orders)
-- Perform data validation checks
-- Analyze customer-level performance
-- Analyze product-level sales and profit
-
-Key scripts:
-- `01_create_tables.sql`
-- `02_data_validation.sql`
-- `03_customer_analysis.sql`
-- `04_product_analysis.sql`
-
----
-
-## 📊 Excel Analysis
-
-Excel was used for intermediate-level analysis:
-
-- Data enrichment using VLOOKUP
-- Aggregation using SUMIFS
-- Pivot Table analysis for:
-  - Category performance
-  - Customer segmentation
-  - Monthly sales trends
-
-Files include:
-- Raw data tables
-- Enriched dataset (Orders_Enriched.xlsx)
-- Pivot analysis sheets
-- Summary report
-
----
-
-## 📈 Power BI Dashboard
-
-An interactive Power BI dashboard was built to visualize key business metrics:
-
-- Total Sales, Profit, Quantity KPIs
-- Top 10 Customers by Sales
-- Top 5 Products by Sales
-- Category performance analysis
-- Monthly sales trend analysis
-
-Files:
-- `Sales_Dashboard.pbix`
-- `Dashboard.pdf`
-
 
 ---
 
@@ -109,69 +70,26 @@ Files:
 
 - SQL (SQLite)
 - Microsoft Excel (VLOOKUP, SUMIFS, Pivot Table)
-- Power BI (Data Visualization, DAX)
+- Power BI (DAX, Visualization)
 - Data Analysis & Business Intelligence
 
 ---
 
-## 🚀 Key Takeaways
+## 🚀 Business Impact
 
-- Built a full data analytics pipeline from raw data to visualization
-- Applied SQL for data modeling and analysis
-- Used Excel for business-level aggregation and exploration
-- Developed interactive dashboards in Power BI
-- Generated actionable business insights from retail data
+This project demonstrates the ability to:
+
+- Transform raw data into structured insights
+- Identify revenue drivers and profitability issues
+- Support business decisions with data visualization
+- Build end-to-end analytics pipelines
 
 ---
 
 ## 📌 Author
 
-This project was built as a data analytics portfolio project to demonstrate end-to-end BI and analytical skills.
-
----
-
-## 📊 Preview
-![img_1.png](img_1.png)
-## 📌 Key Business Insights
-
-Based on the analysis of sales data across customers, products, categories, and time trends, the following key insights are identified:
-
----
-
-### 1️⃣ Sales Performance & Seasonality
-Sales show clear seasonal patterns, with peak performance occurring in November and December.  
-This indicates strong year-end demand, likely driven by holidays and promotional campaigns.
-
----
-
-### 2️⃣ Customer Concentration (Pareto Effect)
-A small group of top customers contributes a significant proportion of total revenue.  
-This confirms the presence of the 80/20 rule, where a limited number of customers drive most of the sales.
-
----
-
-### 3️⃣ Product Performance Imbalance
-Top-selling products are not always the most profitable ones.  
-Some high-revenue products generate relatively lower profit margins, suggesting pricing or discount strategy impacts profitability.
-
----
-
-### 4️⃣ Category-Level Insights
-The Office Supplies category generates the highest total sales, while Furniture shows comparatively lower profit contribution.  
-This suggests potential optimization opportunities in cost control and pricing strategy for Furniture products.
-
----
-
-### 5️⃣ Revenue Distribution Across Products
-Sales are highly concentrated among a small number of products, while the majority of products contribute relatively lower revenue.  
-This indicates an opportunity to optimize product portfolio and focus on high-performing SKUs.
-
----
-
-## 📌 Final Conclusion
-Overall, the business demonstrates strong revenue performance but shows signs of imbalance in profitability and customer/product distribution.  
-Key improvement areas include optimizing low-margin products, leveraging high-value customers, and strengthening seasonal marketing strategies.
-
+Data Analytics Portfolio Project  
+Focused on SQL + Excel + Power BI end-to-end analysis
 
 
 
